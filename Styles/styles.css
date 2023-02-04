@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-style: italic;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+body a {
+    font-size: 1rem;
+}
+
+body nav {
+    margin-top: 15px;
+}
+
+
+@media(max-width: 512px) {
+    .main-image img {
+        width: 341px;
+        height: 227px;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    nav a {
+        font-size: 0.90rem;
+    }
+}
+
+.main-clock {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
